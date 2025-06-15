@@ -6,6 +6,8 @@ from fault_tree import FaultTree
 from mission_briefing import MissionBriefing
 from game_over import GameOverScreen
 from PIL import Image, ImageTk
+import os
+import sys
 
 
 class BuildGUI:
@@ -50,7 +52,8 @@ class BuildGUI:
         notebook.add(blueprint_tab, text="Blueprint")
 
         try:
-            blueprint_path = f"assets/blueprints/{self.difficulty.lower()}.png"
+            base_path = getattr(sys, "_MEIPASS", os.path.abspath("."))
+            blueprint_path = os.path.join(base_path, "assets", "blueprints", f"{self.difficulty}.png")
             image = Image.open(blueprint_path)
 
             max_height = 700

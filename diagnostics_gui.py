@@ -7,6 +7,8 @@ from game_over import GameOverScreen
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 import networkx as nx
+from networkx.drawing.nx_agraph import graphviz_layout
+
 
 class DiagnosticsGUI:
     def __init__(self, root, fault_tree, difficulty):
@@ -98,7 +100,7 @@ class DiagnosticsGUI:
 
         color_map = ["red" if self.fault_tree.components[n].failed else "lime" for n in G.nodes]
 
-        pos = nx.kamada_kawai_layout(G)
+        pos = nx.shell_layout(G)
         nx.draw(
             G, pos, ax=self.ax,
             with_labels=True,

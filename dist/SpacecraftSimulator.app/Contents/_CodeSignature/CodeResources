@@ -1248,9 +1248,21 @@
 		<data>
 		GBqdjL2eeFxpGUmsJTamHaS0USo=
 		</data>
+		<key>Resources/assets/blueprints/easy.png</key>
+		<data>
+		P2sNczwEaxhFWZY8POODHexuVNc=
+		</data>
+		<key>Resources/assets/blueprints/hard.png</key>
+		<data>
+		xFsaVYnDiyx/ArOzjTBMwUC+BTg=
+		</data>
+		<key>Resources/assets/blueprints/medium.png</key>
+		<data>
+		bZYcThJOSUMYiBaLy4yJ4QgoTh0=
+		</data>
 		<key>Resources/base_library.zip</key>
 		<data>
-		wwyTfjNy2c7/E9jcdWPazN2efGg=
+		iM8xFpWbU0aTeji8D0v+VX137iI=
 		</data>
 		<key>Resources/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz</key>
 		<data>
@@ -2374,6 +2386,11 @@
 		<dict>
 			<key>symlink</key>
 			<string>../Resources/_tk_data</string>
+		</dict>
+		<key>Frameworks/assets</key>
+		<dict>
+			<key>symlink</key>
+			<string>../Resources/assets</string>
 		</dict>
 		<key>Frameworks/base_library.zip</key>
 		<dict>
@@ -6264,11 +6281,32 @@
 			IdJZTIMZ8UxHoPC/PSrKvMgsmrjYSmT6PLYIx+dfWcM=
 			</data>
 		</dict>
+		<key>Resources/assets/blueprints/easy.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ulxah1rABuFhGwS8NcN0eC0c7oVcanHET5N7rTTgd9o=
+			</data>
+		</dict>
+		<key>Resources/assets/blueprints/hard.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wQS/dnTS4W4ac+P9iYLRAyUVL+Od2f1wheivNiiaLy4=
+			</data>
+		</dict>
+		<key>Resources/assets/blueprints/medium.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5Q/W5oKs3f8+iMeuWgLheKoYfCLi5BxzrOKSWr6BKnE=
+			</data>
+		</dict>
 		<key>Resources/base_library.zip</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4t5hQPklP+qg1c/yqOUyzCjjCbPYiK3syRArwwmRoYE=
+			mzjwMn9rtWEJg71ZSxiOqPQp7pgP1P7L/YFqupbc+7k=
 			</data>
 		</dict>
 		<key>Resources/contourpy</key>
